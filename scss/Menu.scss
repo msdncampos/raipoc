@@ -1,0 +1,21 @@
+@mixin menu {
+    .mega-menu > ul > li a{
+        padding: 9px 20px 9px 20px;
+        text-align: center;
+    }
+
+    .mega-menu > ul > li{
+        background: rgb(254, 254, 254);
+    }
+
+    .mega-menu > ul{
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+}
