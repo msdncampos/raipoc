@@ -1,5 +1,7 @@
 @import 'scss/style.scss';
 @import 'scss/Menu.scss';
+@import 'scss/typography.scss';
 
 @include style;
 @include menu;
+@include typography;
