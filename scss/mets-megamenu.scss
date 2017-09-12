@@ -1,0 +1,42 @@
+@mixin mets-megamenu{
+    .mets-mega-menu{
+        width: 645px;
+        text-align: center;
+        margin: auto;
+        .mega-menu > ul > li{
+            background: rgba(233, 233, 233, 0);
+        }
+        .mega-menu > ul > li a{
+            padding: 9px 30px 9px 20px;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        .mega-menu > ul > li > ul{
+            background: #053d74;
+        }
+        h2{
+            height: 30px;
+            a.nav__subnav_item.nav__subnav_title{
+                font-size: 15px;
+                font-weight: 400;
+                padding: 0;
+                text-transform: uppercase;
+                border-bottom: none !important;
+                margin-left: 0px;
+                color: white;
+                padding: 0px!important;
+                text-align: left;
+            }
+        }
+        .mega-menu > ul > li > ul > li > ul > li > a:hover{
+            background-color: #022B4C;
+        }
+        .mega-menu > ul > li > ul > li > ul > li > a.nav__subnav_item{
+            font-size: 13px;
+            text-align: left;
+            padding: 0;
+            text-transform: none;
+            color: white;
+        }
+    }
+}

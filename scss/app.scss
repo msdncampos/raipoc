@@ -1,7 +1,23 @@
 @import 'scss/style.scss';
 @import 'scss/Menu.scss';
 @import 'scss/typography.scss';
+@import 'scss/metstrade-body.scss';
+@import 'scss/mets-list.scss';
+@import 'scss/mets-icon.scss';
+@import 'scss/mets-steelbar.scss';
+@import 'scss/mets-image.scss';
+@import 'scss/mets-megamenu.scss';
+@import 'scss/mets-footer.scss';
+@import 'scss/mets-search.scss';
 
 @include style;
 @include menu;
 @include typography;
+@include metstrade-body;
+@include mets-list;
+@include mets-icon;
+@include mets-steelbar;
+@include mets-image;
+@include mets-megamenu;
+@include mets-footer;
+@include mets-search;

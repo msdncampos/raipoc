@@ -1,0 +1,20 @@
+@mixin mets-footer{
+    .mets-footer{
+        background: #696969;
+
+        figure{
+            margin: 0;
+            margin-top: 75px;
+        }
+        p{
+            color: #dadada;
+        }
+        a{
+            color: #fff;
+        }
+    }
+    .row.expanded.mets-footer.row.row-not-expanded.columns.small-2 > figure{
+        margin: 0;
+        margin-top: 75px;
+    }
+}

@@ -1,0 +1,41 @@
+@mixin mets-icon{
+    .s-canvas-icon {
+        overflow: hidden;
+        display: block;
+        text-align: center;
+        margin-top: 11px;
+        margin-right: 10px;
+        height: 30px;
+        width: 55px;
+        position: relative;
+        float: right;
+        border-bottom: 1px solid;
+        border-bottom-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .s-canvas-icon .fa {
+        position: absolute;
+        display: block;
+        bottom: -7px;
+        height: 100%;
+        width: 100%;
+        -webkit-transition: bottom 0.45s;
+        /* Safari */
+        transition: bottom 0.45s;
+    }
+
+    .s-canvas-text {
+        display: block;
+        float: right;
+    }
+
+    .s-canvas-text:HOVER {
+        cursor: pointer !important;
+    }
+
+    .s-canvas-icon:hover .fa, .s-canvas-icon .fa:hover {
+        bottom: -2px;
+        cursor: pointer !important;
+    }
+
+}

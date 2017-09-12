@@ -1,0 +1,26 @@
+@mixin mets-search{
+    .mets-search{
+        width: 40%;
+        margin: 0 30%;
+        text-align: center;
+
+        input.input-group-field{
+            height: 60px;
+            max-width: 100%;
+        }
+        .input-group > :last-child > *{
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 3px;
+            background: #333335;
+            background-image: url(http://www.rai.nl/~/media/AB4A4090E26B415D8BBD5C771777A177.ashx);
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 26px;
+            color: rgba(0, 0, 0, 0);
+        }
+    }
+}

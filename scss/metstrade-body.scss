@@ -1,6 +1,16 @@
 @mixin metstrade-body{
-    metstrade-homepage{
-        background-image: url(/-/media/Metstrade/MET2017-Overzicht-1900x1300.jpg)
-
+    .metstrade-homepage{
+        background-image: url(/-/media/Metstrade/MET2017-Overzicht-1900x1300.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .row-not-expanded{
+        max-width: 75rem!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .push-quadruple--ends{
+         margin-top: 60px;
+        margin-bottom: 60px;
     }
 }
