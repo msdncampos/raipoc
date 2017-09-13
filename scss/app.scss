@@ -9,6 +9,7 @@
 @import 'scss/mets-megamenu.scss';
 @import 'scss/mets-footer.scss';
 @import 'scss/mets-search.scss';
+@import 'scss/mets-article.scss';
 
 @include style;
 @include menu;
@@ -21,3 +22,4 @@
 @include mets-megamenu;
 @include mets-footer;
 @include mets-search;
+@include mets-article;

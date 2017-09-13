@@ -1,0 +1,138 @@
+@mixin mets-article{
+    .masonry{
+        .masonry__item.article{
+            margin-bottom: 30px;
+            float: left;
+            min-height: 1px;
+
+            .article-border{
+                border-color: transparent !important;
+                background-color: #fff;
+                border: none !important;
+
+                .article-img{
+                    vertical-align: middle;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .article-boxes-caption{
+                    padding: 15px;
+                    .tags{
+                        .tag{
+                            margin-bottom: 5px;
+                            padding: 1px 0px;
+                        }
+                        .btn-u:hover,
+                        .btn-u:focus,
+                        .btn-u:active,
+                        .btn-u.active,
+                        .open .dropdown-toggle.btn-u {
+                            background-color: #4765a0!important;
+                            color: #fff;
+                        }
+
+                        .btn-u,
+                        .black,
+                        .violet,
+                        .light-blue{
+                            text-decoration: none !important;
+                            color: #ffffff;
+                        }
+
+                        .btn-u{
+                            background-color: #053D74!important;
+                        }
+                        .black{
+                            background-color: #222222!important;
+                        }
+                        .violet{
+                            background-color: #af97f5!important;
+                        }
+                        .light-blue{
+                            background-color: #eeeeee!important;
+                            color:#000000!important;
+                        }
+                        .btn-u,
+                        .black,
+                        .violet,
+                        .light-blue{
+                            background: #4765a0;
+                            margin-right: 5px;
+                            border: 0;
+                            font-size: 14px;
+                            cursor: pointer;
+                            font-weight: 400;
+                            padding: 6px 13px;
+                            position: relative;
+                            background: #053D74;
+                            white-space: nowrap;
+                            display: inline-block;
+                            text-decoration: none;
+                        }
+                    }
+                    h3.article-a{
+                        color: #555;
+                        margin-top: 5px;
+                        text-shadow: none;
+                        font-weight: normal;
+                        font-size: 17.5px;
+
+                        a{
+                            font-family: "Open Sans", Arial, sans-serif !important;
+                            text-decoration: none !important;
+                            color: #053D74;
+                        }
+                        a:hover{
+                            color: #4765a0;
+                        }
+                    }
+                    .article-boxes-news{
+                        margin-bottom: 15px;
+                    }
+                    .list-inline{
+                        padding-left: 0;
+                        margin-left: -5px;
+                        list-style: none;
+                    }
+
+                }
+            }
+        }
+
+        .grid-boxes-caption.grid-boxes-quote{
+            padding: 30px;
+            background: #333;
+            text-align: center;
+            .quote.a{
+                font-family: "Open Sans", Arial, sans-serif !important;
+                color: inherit;
+                display: block;
+                text-decoration: none;
+                line-height: normal;
+                padding: 20px !important;
+                text-align: center;
+            }
+            p,p a,span{
+                color: #fff;
+                font-size: 20px;
+                font-weight: 200;
+                text-transform: uppercase;
+                position: relative;
+            }
+            span:before{
+                content: " \" ";
+                margin-left: -15px;
+                position: absolute;
+                font-family: Tahoma;
+            }
+            span:after{
+                content: " \" ";
+                margin-left: 10px;
+                position: absolute;
+                font-family: Tahoma;
+            }
+        }
+
+    }
+}
