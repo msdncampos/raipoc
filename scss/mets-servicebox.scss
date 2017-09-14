@@ -1,0 +1,39 @@
+@mixin mets-servicebox{
+    .service-block{
+        box-shadow: 1px 1px 4px 0 hsla(0,0%,89%,.5);
+        text-decoration: none;
+        color: #053d74 !important;
+        background: #fff;
+        padding: 20px 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-decoration: none!important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        .fa-4x{
+            color: #053d74 !important;
+        }
+
+        h4,label,span{
+            margin-top: 5px;
+            text-shadow: none;
+            font-weight: normal;
+            font-family: "Open Sans", Arial, sans-serif;
+            font-size: 18px;
+            color: #053d74 !important;
+        }
+    }
+
+    .service-block:hover{
+        background-color: #053d74;
+        box-shadow: none;
+        color:#fff!important;
+        .fa-4x{
+            color:#fff!important;
+        }
+        h4,label,span{
+            color:#fff!important;
+        }
+    }
+
+}

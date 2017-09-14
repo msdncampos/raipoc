@@ -10,6 +10,7 @@
 @import 'scss/mets-footer.scss';
 @import 'scss/mets-search.scss';
 @import 'scss/mets-article.scss';
+@import 'scss/mets-servicebox.scss';
 
 @include style;
 @include menu;
@@ -23,3 +24,4 @@
 @include mets-footer;
 @include mets-search;
 @include mets-article;
+@include mets-servicebox;
